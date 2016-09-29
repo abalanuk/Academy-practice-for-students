@@ -1,6 +1,6 @@
 {
   "name": "html5_animations",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "front-end with HTML5/CSS3/jQuery/parallax effect and video content",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/balanuk/static_test_page.git"
   },
-  "author": "",
+  "author": "Andrew Balanyuk",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/balanuk/static_test_page/issues"
