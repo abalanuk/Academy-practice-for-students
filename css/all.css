@@ -1,0 +1,17 @@
+header div:first-child {
+width: 20%;
+botder: 1px solid black;
+}
+header {
+	heit: 50px;
+	background: green;
+	}
+
+header div:last-child {
+with: 30%;
+botder: ;
+}
+
+body {
+	overflow: scroll;
+}
