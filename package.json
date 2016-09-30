@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/balanuk/static_test_page/issues"
   },
-  "homepage": "https://github.com/balanuk/static_test_page#readme"
+  "homepage": "https://github.com/balanuk/static_test_page#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
 }
