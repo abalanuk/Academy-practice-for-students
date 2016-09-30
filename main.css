@@ -1,0 +1,18 @@
+header div:first-child {
+    width: 20%;
+    border: 1px solid black;
+}
+header {
+    height: 50px;
+    background: green;
+}
+header div{
+    height: 100%;
+}
+header div:last-child {
+    width: 80%;
+}
+
+body {
+    overflow: scroll;
+}

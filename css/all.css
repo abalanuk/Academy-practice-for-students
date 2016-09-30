@@ -1,0 +1,38 @@
+#footer-wrapper {
+  width: 100%;
+  clear: both;
+  position: relative;
+  bottom: 0;
+  z-index: 1; }
+  #footer-wrapper footer {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top: 1px solid #e6e6e6;
+	background-color: #F5F5F5;
+	height: 26px; }
+	#footer-wrapper footer nav a, #footer-wrapper footer nav a:visited {
+	  color: #cfcf3f;
+	  font-size: 16px;
+	  margin-right: 10px; }
+
+.tooltip .tooltip-outer {
+  display: none;
+  min-width: 200px;
+  padding: 8px;
+  position: absolute;
+  z-index: 10000;
+  background-color: black;
+  border-radius: 3px;
+  cursor: default; }
+  .tooltip .tooltip-outer .close-tooltip-wrapper {
+	text-align: right;
+	color: #ffffff;
+	position: relative;
+	margin-bottom: 10px;
+	margin-top: -22px; }
+	.tooltip .tooltip-outer .close-tooltip-wrapper .close-tooltip {
+	  position: absolute;
+	  right: 0;
+	  cursor: pointer; }
+
+/*# sourceMappingURL=all.css.map */
