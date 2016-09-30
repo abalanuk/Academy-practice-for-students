@@ -1,17 +1,19 @@
 header div:first-child {
 width: 20%;
-botder: 1px solid black;
+border: 1px solid black;
 }
 header {
 	heit: 50px;
-	background: green;
+	background: yellow;
 	}
-
-header div:last-child {
-with: 30%;
-botder: ;
+h1 {
+	color: green;
 }
 
 body {
 	overflow: scroll;
+	}
+img {
+	border: 1px dotted black;
 }
+ 
