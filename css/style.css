@@ -1,0 +1,147 @@
+header div{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.header {
+    display: block;
+    width: 10%;
+    text-align: center;
+    border-right: 1px solid #c3cece;
+    font-size: 14;
+    font-family: sans-serif;
+}
+.header:nth-child(2){
+    text-align: left;
+    width: 49%;
+    color: darkgrey;
+    border-left: 1px solid #c3cece;
+    border-right: none;
+}
+.header:last-child{
+    border-right: none;
+    
+}
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+img {
+    position: relative; 
+    top: 8px; 
+    
+}
+
+.btn {
+   
+}
+
+.btn_header {
+    border: 2px solid #aaa3a3;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.video {
+    position: relative;
+    height: 602px;
+    width: 100%;
+    top: 60px;
+    background: url("https://a0.muscache.com/airbnb/static/P1F1.jpg") 100% 100% no-repeat;
+    background-size: cover;
+    
+}
+
+main {
+    display: block;
+    
+}
+
+.container_slogan {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    top: 100px;
+}
+.slogan {
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.big_slogan {
+    font-size: 60; 
+}
+
+.small_slogan {
+    font-size: 20;
+    padding-top: 20px;
+}
+
+.btn_it_works {
+    position: relative;
+    border: 2px solid #aaa3a3;
+    border-radius: 5px;
+    padding: 10px 20px;
+    bottom: 100px;
+    left: 45%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: #aaa3a3;
+    
+    
+}
+
+.choose_way {
+    position: relative;
+    padding: 5px 0px;
+    top: 120px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: rgba(57, 54, 54, 0.67)
+}
+
+.way_container {
+    position: relative;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    left: 200px;
+    top: 10px;
+    width: 10%;
+    text-align: center;
+    border-right: 1px solid #c3cece;
+    font-size: 14;
+    font-family: sans-serif;
+    background: white;
+    color: #aaa3a3;
+}
+.way_container:first-child{
+    width: 30%;
+    border-radius: 5px 0px 0px 5px;
+}
+.way_container:nth-child(2){
+    border-right: none;
+}
+.way_container:last-child{
+    background: #ff4848;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    border-right-color: #ff4848;
+}
+.select_guest {
+    height: 40px;
+    width: 100%;
+    border-radius: none;
+    border: none;
+}
