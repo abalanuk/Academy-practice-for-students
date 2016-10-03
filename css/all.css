@@ -3,8 +3,7 @@ width: 20%;
 border: 1px solid black;
 }
 header {
-	heit: 50px;
-	background: yellow;
+		background: yellow;
 	}
 h1 {
 	color: green;
@@ -16,4 +15,10 @@ body {
 img {
 	border: 1px dotted black;
 }
- 
+footer div  {
+		background: black;
+		color: green;
+}
+a {
+	color: red;
+}
