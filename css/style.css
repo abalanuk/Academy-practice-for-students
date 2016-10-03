@@ -32,7 +32,7 @@ header{
             margin: 22px 0;
             height: 25px;
             padding-left: 47px;
-            background: url("../img/search_btn.png") no-repeat 12px 0;
+            background: url("../assets/search_btn.png") no-repeat 12px 0;
             border: none;
             color: grey;
         }
@@ -73,18 +73,25 @@ header{
         position: relative;
         background: url("../img/head_img.jpg") no-repeat;
         background-size: cover;
-        height: 494px;
         width: 100%;
         margin-top: 70px;
     }
-        .header_main_img h1{
+        .header_main_img img{
+            width: 100%;
+        }
+        .header_main_img_content{
+            position: absolute;
+            top: 60px;
+            left: 19%;
+        }
+        .header_main_img_content h1{
             font-weight: bold;
             font-size: 60px;
             color: #fff;
             text-align: center;
             padding-top: 110px;
         }
-        .header_main_img p{
+        .header_main_img_content p{
             font-weight: bold;
             font-size: 20px;
             color: #fff;
@@ -92,7 +99,7 @@ header{
             padding: 20px 0;
 
         }
-        .header_main_img>a{
+        .header_main_img_content>a{
             font-weight: bold;
             font-size: 20px;
             color: #fff;
@@ -103,6 +110,9 @@ header{
             background-color: rgba(208, 208, 208, 0.5);
             border-radius: 2px;
             margin: 0 auto;
+        }
+        .header_main_img_content>a:hover{
+            background-color: rgba(29, 29, 29, 0.5);
         }
         .bottom_line{
             width: 100%;
@@ -130,6 +140,50 @@ header{
                     height: 100%;
                 }
 main{
-    height: 400px;
+    padding-top: 40px;
     background-color: #E2E2E2;
 }
+    .wrapper{
+        margin: 0 auto;
+    }
+    .banner{
+        width: 80%;
+        position: relative;
+    }
+        .banner img{
+            float: left;
+            width: 60%  ;
+        }
+        .banner_content{
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 40%;
+            background-color: #fff;
+        }
+            .banner_content h1{
+                font-size: 30px;
+                font-weight: bold;
+                color: #000000;
+                text-align: left;
+                padding: 0px 45px;
+                margin: 40px 0 15px 0;
+            }
+            .banner_content p{
+                font-size: 20px;
+                text-align: left;
+                padding: 0 40px;
+            }
+            .banner_content a{
+                padding: 10px 40px;
+                background-color: #1e7ca6;
+                text-decoration: none;
+                color: #fff;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+                display: block;
+                margin: 20px 40px;
+                border-radius: 2px;
+            }
