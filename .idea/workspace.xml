@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10750a63-9e67-4156-b63e-248361ed0ca8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/10.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/125.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/140.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/290.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/293.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/2a4e63c3-c981-4cbc-9c37-80a6ab3a9d24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/314.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/396.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/57.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/918.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/P1F1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/b62aa572-cf0b-4e4a-b886-a039a0250cf3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/belong-vid-b5b9b5ff3b53a7a4229d4acde53fb161.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/business-56c80d9222a2e084253f33e893f8bd32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cf3b9363-34e4-4532-b051-6a7663410854.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/create-img-bd380285eda2b7e32ba35c00c10699b7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/hosting-74e04c88d4df9607cc3025401a43c665.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/shopping_1x1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sightseeing_1x1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/traveling-edebfe1eafd15383d4872876d41bd50e.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Снять квартиру, комнату, дом, виллу. Аренда жилья по всему м-1.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/Снять квартиру, комнату, дом, виллу. Аренда жилья по всему м.mp4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/banner.jpg" afterPath="$PROJECT_DIR$/assets/banner.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/head_img.jpg" afterPath="$PROJECT_DIR$/assets/head_img.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/assets/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/search_btn.png" afterPath="$PROJECT_DIR$/assets/search_btn.png" />
     </list>
     <ignored path="HTML_verst.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="378">
+              <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -64,8 +38,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="310">
+              <caret line="226" column="31" selection-start-line="226" selection-start-column="31" selection-end-line="226" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -137,17 +111,45 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HTML_verst - копия (3)" />
+              <option name="myItemId" value="HTML_verst" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HTML_verst - копия (3)" />
+              <option name="myItemId" value="HTML_verst" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HTML_verst - копия (3)" />
+              <option name="myItemId" value="HTML_verst" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML_verst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML_verst" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML_verst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML_verst" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,11 +228,13 @@
       <workItem from="1475525306847" duration="107000" />
       <workItem from="1475526238972" duration="420000" />
       <workItem from="1475529255825" duration="103000" />
+      <workItem from="1475530496731" duration="3005000" />
+      <workItem from="1475568017604" duration="1488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30076000" />
+    <option name="totallyTimeSpent" value="34569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
@@ -271,6 +275,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -431,18 +483,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/125.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/140.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="378">
+          <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="310">
+          <caret line="226" column="31" selection-start-line="226" selection-start-column="31" selection-end-line="226" selection-end-column="31" />
           <folding />
         </state>
       </provider>

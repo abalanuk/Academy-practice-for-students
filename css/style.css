@@ -71,8 +71,6 @@ header{
                 }
     .header_main_img{
         position: relative;
-        background: url("../img/head_img.jpg") no-repeat;
-        background-size: cover;
         width: 100%;
         margin-top: 70px;
     }
@@ -186,4 +184,53 @@ main{
                 display: block;
                 margin: 20px 40px;
                 border-radius: 2px;
+            }
+    .weekend{
+        width: 80%;
+        margin-top: 30px;
+        font-family: Arial, sans-serif;
+    }
+        .weekend h1{
+            font-size: 35px;
+            color: #000;
+            -ms-text-align-last: right;
+            text-align: center;
+            font-weight: bold;
+        }
+        .weekend p{
+            font-size: 16px;
+            text-align: center;
+            margin: 10px 0 25px 0   ;
+        }
+        .block_3{
+            overflow: hidden;
+        }
+            .block_3 article{
+                width: 30%;
+                margin-left: 5%;
+                position: relative;
+                float: left;
+            }
+            .block_3 article h2{
+                position: absolute;
+                top: 40%;
+                font-size: 40px;
+                font-weight: bold;
+                color: #fff;
+                text-align: center;
+                width: 100%;
+            }
+            .block_3 article:first-child{
+                margin-left: 0;
+            }
+            .weekend>a{
+                padding: 8px 30px;
+                color: #000;
+                border: 1px solid #808080;
+                background-color: #fff;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+                display: table;
+                margin: 40px auto 0 auto;
             }
