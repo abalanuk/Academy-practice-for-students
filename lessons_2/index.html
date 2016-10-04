@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AirBnB</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="" alt="main icon">
+            </a>
+        </div>
+        <ul class="main-menu">
+            <li class="dropdown-item">
+                <a href="#"><span class="be-owner-border">Стать хозяином</span></a>
+                <div class="dropdown-item-content">Вы можете заработать 9 365₽, делясь своим домом в г. Киев в течение недели. Принимайте гостей. </div>
+            </li>
+            <li>
+                <a href="#">Помощь</a>
+            </li>
+            <li>
+                <a href="#">Регистрация</a>
+            </li>
+            <li>
+                <a href="#">Войти</a>
+            </li>
+        </ul>
+        <div class="search">
+            <input type="text" size="40" placeholder="Куда вы едете?" value="">
+        </div>
+
+    </header>
+    <main>
+        <div class="block-video">
+            <div class="video">
+                <video class="video-playing" preload="auto" loop="loop"  autoplay>
+                    <source src="https://a0.muscache.com/airbnb/static/P1-background-vid-compressed-2.mp4" type="video/mp4">
+                    <source src="https://a0.muscache.com/airbnb/static/P1-background-vid-compressed-2.webm" type="video/webm">
+                </video>
+            </div>
+            <div class="video-text">
+                <div class="video-text-header">Целая жизнь</div>
+                <div class="video-text-about">Бронируйте дома у местных хозяев в 191+ странах и смотрите на город глазами местного жителя.</div>
+                <div class="video-text-button"><a href="#"> Как это работает</a></div>
+            </div>
+            <div class="trip-form-wrapper">
+                <form class="trip-form">
+                    <input  class="destination" type="text" size="40" placeholder="Куда вы едете?" value="">
+                    <input class="arrival" type="text" size="40" placeholder="Прибытие" value="">
+                    <i class="icon-arrow"></i>
+                    <input class="exit" type="text" size="40" placeholder="Выезд" value="">
+                    <select class="people">
+                        <option>1 гость</option>
+                        <option>2 гостя</option>
+                        <option>3 гостя</option>
+                        <option>4 гостя</option>
+                    </select>
+                    <button class="search">Начать поиск</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="container block-with-photos clearfix">
+            <div class=" block-with-photos-text">
+                <div class=" block-with-photos-text-header">Только на выходные</div>
+                <div class=" block-with-photos-text-about">Открывайте новые вдохновляющие места рядом с домом.</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/140.jpg"></a>
+                <div class="img-title">Минск</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/918.jpg"></a>
+                <div class="img-title">Вильнюс</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/293.jpg"></a>
+                <div class="img-title">Варшава</div>
+            </div>
+            <button class="directions">Посмотреть все направления</button>
+        </div>
+        <div class="container block-with-photos clearfix ">
+            <div class=" block-with-photos-text">
+                <div class=" block-with-photos-text-header">Открывайте мир</div>
+                <div class=" block-with-photos-text-about">Посмотрите, куда отправляются путешественники со всего света. </div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/680x344/125.jpg"></a>
+                <div class="img-title img-big-title">Будапешт</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/396.jpg"></a>
+                <div class="img-title">Париж</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/290.jpg"></a>
+                <div class="img-title">Рим</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/680x344/10.jpg"></a>
+                <div class="img-title img-big-title">Амстердам</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/57.jpg"></a>
+                <div class="img-title">Милан</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/314.jpg"></a>
+                <div class="img-title">Прага</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/shopping_1x1.jpg"></a>
+                <div class="img-title">Вена: отличные магазины</div>
+            </div>
+        </div>
+        <div class="container block-with-photos clearfix">
+            <div class=" block-with-photos-text">
+                <div class=" block-with-photos-text-header">Новые путеводители</div>
+                <div class=" block-with-photos-text-about">Откройте для себя сотни интересных мест, которые рекомендуют хозяева на Airbnb </div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/11.jpg"></a>
+                <div class="img-title">Сан-Франциско</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/12.jpg"></a>
+                <div class="img-title">Нью-Йорк</div>
+            </div>
+            <div class="block-with-photos-content">
+                <a href="#"><img src="assets/328x344/13.jpg"></a>
+                <div class="img-title">Лондон</div>
+            </div>
+            <button class="directions">Посмотреть все направления</button>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
