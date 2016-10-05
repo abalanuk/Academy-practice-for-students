@@ -12,17 +12,17 @@ header{
         top: 0;
         left: 0;
         z-index: 1;
+        display: flex;
     }
     .left_head{
         width: 55%;
         height: 100%;
-        float: left;
+        display: flex;
     }
         .left_head a{
-            display: inline-block;
+            display: block;
             padding: 13px;
             border-right: 2px solid #d3d3d3;
-            float: left;
         }
         .left_head a:hover{
             background-color: #f5f2f2;
@@ -38,15 +38,14 @@ header{
         }
 
     .right_head{
-        width: 40%;
-        float: right;
+        width: 45%;
         height: 100%;
     }
         .right_head ul{
-            float: right;
+            display: flex;
+            justify-content: flex-end;
         }
         .right_head li{
-            float: left;
             border-left: 1px solid #d3d3d3;
         }
         .right_head li:first-child{
@@ -69,6 +68,24 @@ header{
                     padding: 5px;
                     border: 2px solid #d3d3d3;
                 }
+
+             .hid_r{
+                 display: none;
+             }
+            .right_head li:nth-child(1){
+                position: relative;
+            }
+            .right_head li:nth-child(1):hover  .hid_r{
+                display: block;
+                width: 270px;
+                position: absolute;
+                right: 0;
+                background-color: #fff;
+                border: 1px solid #d3d3d3;
+                color: #808080;
+                padding: 25px 45px 25px 25px;
+             }
+
     .header_main_img{
         position: relative;
         width: 100%;
@@ -147,9 +164,9 @@ main{
     .banner{
         width: 80%;
         position: relative;
+        display: flex;
     }
         .banner img{
-            float: left;
             width: 60%  ;
         }
         .banner_content{
@@ -193,7 +210,6 @@ main{
         .weekend h1{
             font-size: 35px;
             color: #000;
-            -ms-text-align-last: right;
             text-align: center;
             font-weight: bold;
         }
@@ -203,13 +219,14 @@ main{
             margin: 10px 0 25px 0   ;
         }
         .block_3{
-            overflow: hidden;
+            display: flex;
+
         }
             .block_3 article{
                 width: 30%;
                 margin-left: 5%;
                 position: relative;
-                float: left;
+
             }
             .block_3 article h2{
                 position: absolute;
