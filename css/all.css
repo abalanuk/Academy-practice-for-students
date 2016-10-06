@@ -1,24 +1,46 @@
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+ }
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  }
 header div:first-child {
-width: 20%;
+width: 100%;
 border: 1px solid black;
+/*position: fixed;*/
+justify-content: space-around;
+flex-grow: 1;
 }
 header {
 		background: yellow;
 	}
+	div {
+		display: flex;
+		justify-content: center;
+	}
 h1 {
 	color: green;
+}
+main {
+	/*display:inline-block;*/
+	flex-grow: 1;
+	vertical-align: middle;
+	
 }
 
 body {
 	overflow: scroll;
 	}
-img {
-	border: 1px dotted black;
-}
-footer div  {
+
+footer  {
 		background: black;
 		color: green;
-}
+					
+		}
 a {
 	color: red;
 }
