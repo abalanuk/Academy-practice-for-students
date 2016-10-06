@@ -1,0 +1,26 @@
+$tc_white: #ffffff
+$blackmarlin: black
+$border-radius-default: 3px
+
+.tooltip
+  .tooltip-outer
+    display: none
+    min-width: 200px
+    padding: rem(8px)
+    position: absolute
+    z-index: 10000
+    background-color: $blackmarlin
+    border-radius: rem($border-radius-default)
+    cursor: default
+
+    .close-tooltip-wrapper
+      text-align: right
+      color: $tc_white
+      position: relative
+      margin-bottom: rem(10px)
+      margin-top: rem(-22px)
+
+      .close-tooltip
+        position: absolute
+        right: 0
+        cursor: pointer
