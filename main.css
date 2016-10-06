@@ -1,0 +1,87 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset,  form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    overflow: scroll;
+}
+
+header div:first-child {
+    width: 20%;
+}
+header {
+    height: 50px;
+    background-color: #F5F5F5;
+}
+header div{
+    height: 100%;
+}
+header div:last-child {
+    width: 80%;
+}
+header div, header nav {
+    display: inline-block;
+}
+
+nav {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+section,header,footer {
+    width: 100%;
+    box-sizing: padding-box;
+}
+
+#hero {
+    height: 446px;
+    background-color: bisque;
+}
+
+#discovery {
+    height: 4241px;
+    background-color: gainsboro;
+    padding: 20px 200px;
+}
+
+#weekend { height: 949px; background-color: #F5F5F5; }
+#discover { height: 2355px; background-color: cornsilk; }
+#new_trips { height: 901px; background-color: darkseagreen; }
+
+#slider {
+    height: 600px;
+    background-color: aliceblue;
+    padding: 30px 100px;
+}
+
+#community {
+    height: 575px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+#community article {
+    width: 20%;
+    display: inline-block;
+    margin: 10px;
+    background-color: #cfcf3f;
+    height: 492px;
+}
+
+footer {
+    height: 451px;
+    background-color: cadetblue;
+    padding: 20px 200px;
+}
