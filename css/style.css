@@ -5,7 +5,7 @@ body{
 header{
     height: 100%;
 }
-    .header_top{
+    #header_top{
         background: #fff;
         width: 100%;
         position: fixed;
@@ -339,16 +339,53 @@ main section:nth-child(5){
             color: #fff;
             text-align: center;
         }
-        .text a{
-            width: 89px;
+        .text button{
+            width: 93px;
             height: 91px;
             display: block;
             margin: 25px auto;
             opacity: .5;
+            background: url("../assets/play_btn.png")no-repeat;
+            border: none;
+            cursor: pointer;
         }
-        .text a:hover{
+        .text button:hover{
             opacity: 1;
         }
+        /*play video*/
+#play_video{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 4;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .7);
+}
+#play_video video{
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+.close{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: url("../assets/close_btn.png");
+    background-size: cover;
+    cursor: pointer;
+    border: none;
+    opacity: .5;
+}
+.close:hover{
+    opacity: 1;
+}
+    /* end play video */
+
 
 .community{
     padding-top: 50px;

@@ -10,8 +10,14 @@
 	</head>
 
 	<body>
+		<div id="play_video">
+			<video autoplay="autoplay" loop="loop" muted="muted">
+				<source src="https://a0.muscache.com/airbnb/static/Belong_p1_v2.mp4">
+			</video>
+			<button class="close" onclick="closeVideo()"></button>
+		</div>
 		<header>
-			<div class="header_top">
+			<div id="header_top">
 				<div class="left_head">
 					<a href="index.html"><img src="assets/logo.png"></a>
 					<input type="text" placeholder="Куда вы едете?">
@@ -191,7 +197,7 @@
 								<h1>Весь мир - ваш дом</h1>
 								<h2>Посмотрите, как хозяевам Airbnb удается поддерживать в гостях ощущение того, что весь мир — их дом
 								</h2>
-								<a href="#"><img src="assets/play_btn.png"></a>
+								<button onclick="playVideo();"></button>
 							</div>
 						</li>
 						<li>
@@ -199,12 +205,13 @@
 							<div class="text">
 								<h1>ВСТРЕЧАЙТЕ BÉLO</h1>
 								<h2>С Airbnb весь мир — твой дом: история нового символа</h2>
-								<a href="#"><img src="assets/play_btn.png"></a>
+								<button onclick="playVideo();"></button>
 							</div>
 						</li>
 
 					</ul>
 				</div>
+
 			</section>
 			<section class="community">
 				<h1>Наше сообщество</h1>
@@ -339,6 +346,16 @@
 					pager: false
 				});
 			});
+		</script>
+		<script type="text/javascript">
+			function playVideo(){
+				document.getElementById("play_video").style.display = "block";
+				document.getElementById("header_top").style.position = "relative";
+			}
+			function closeVideo(){
+				document.getElementById("play_video").style.display = "none";
+				document.getElementById("header_top").style.position = "fixed"
+			}
 		</script>
 	</body>
 </html>
