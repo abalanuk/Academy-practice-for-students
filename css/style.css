@@ -11,8 +11,9 @@ header{
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 1;
+        z-index: 3;
         display: flex;
+        border-bottom: 1px solid #d3d3d3;
     }
     .left_head{
         width: 55%;
@@ -169,9 +170,12 @@ main section:nth-child(5){
         position: relative;
         display: flex;
     }
-        .banner img{
-            width: 60%  ;
+        .banner_slide{
+            width: 60%;
         }
+
+
+
         .banner_content{
             position: absolute;
             top: 0;
@@ -307,17 +311,22 @@ main section:nth-child(5){
             position: absolute;
             bottom: 10%;
         }
-    .slider_box{
-        position: relative;
-        margin-top: 50px;
-    }
-        .slider_box_content{
+ .slider{
+     height: 100%;
+     width: 100%;
+ }
+.rslides .text{
+    position: absolute;
+    top: 150px;
+    left: 66px;
+}
+        .text{
             width: 90%;
             position: absolute;
             top: 26%;
             left: 5%;
         }
-        .slider_box_content h1{
+        .text h1{
             font-size: 60px;
             font-weight: bold;
             color: #fff;
@@ -325,23 +334,22 @@ main section:nth-child(5){
             text-transform: uppercase;
             font-family: Arial, sans-serif;
         }
-        .slider_box_content h2{
+        .text h2{
             font-size: 25px;
             color: #fff;
             text-align: center;
         }
-        .slider_box_arrows .left{
-            position: absolute;
-            top: 45%;
-            opacity: .5;
-            left: 0;
-        }
-        .slider_box_arrows .right{
-            position: absolute;
-            top: 45%;
-            right: 0;
+        .text a{
+            width: 89px;
+            height: 91px;
+            display: block;
+            margin: 25px auto;
             opacity: .5;
         }
+        .text a:hover{
+            opacity: 1;
+        }
+
 .community{
     padding-top: 50px;
     color: #fff;
@@ -439,9 +447,11 @@ main section:nth-child(5){
                 height: 100%;
                 width: 100%;
             }
-            .block_4 article:hover .shadow{
+            .block_4 article a:hover .shadow{
                 background: rgba(0, 0, 0, .3);
             }
+
+
 footer{
     background: url("../assets/footer_bg.png");
     background-color: #2d2d2e;

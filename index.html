@@ -1,8 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="utf-8"> 
+		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/slide.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
 		<title>AirBnB</title>
 	</head>
 
@@ -64,11 +67,32 @@
 				</div>
 			</div>
 		</header>
-		<div class="clearfix"></div>
 		<main>
 			<section>
-				<article class="wrapper banner">
+				<!--<article class="wrapper banner">
 					<img src="assets/banner.jpg">
+					<div class="banner_content">
+						<h1>Прием гостей — это целый мир возможностей</h1>
+						<p>Зарабатывайте, делясь свободным жильем.</p>
+						<a href="#">Оцените возможности</a>
+					</div>
+				</article>-->
+				<article class="wrapper banner">
+					<div class="banner_slider">
+						<div class="wrapper_slide">
+							<ul class="rslides">
+								<li>
+									<img src="assets/banner.jpg" alt="">
+								</li>
+								<li>
+									<img src="assets/banner_1.jpg" alt="">
+								</li>
+								<li>
+									<img src="assets/banner_2.jpg" alt="">
+								</li>
+							</ul>
+						</div>
+					</div>
 					<div class="banner_content">
 						<h1>Прием гостей — это целый мир возможностей</h1>
 						<p>Зарабатывайте, делясь свободным жильем.</p>
@@ -158,18 +182,28 @@
 					</article>
 				</div>
 			</section>
-			<section>
-				<div class="slider_box">
-					<img src="assets/122.jpg">
-					<div class="slider_box_content">
-						<h1>Весь мир - ваш дом</h1>
-						<h2>Посмотрите, как хозяевам Airbnb удается поддерживать в гостях ощущение того, что весь мир — их дом
-						</h2>
-					</div>
-					<div class="slider_box_arrows">
-						<a href="#" class="left"><img src="assets/left-arrow.png"></a>
-						<a href="#" class="right"><img src="assets/right-arrow.png"></a>
-					</div>
+			<section class="slider">
+				<div class="wrapper_slider">
+					<ul class="rslides">
+						<li>
+							<img src="assets/122.jpg" alt="">
+							<div class="text">
+								<h1>Весь мир - ваш дом</h1>
+								<h2>Посмотрите, как хозяевам Airbnb удается поддерживать в гостях ощущение того, что весь мир — их дом
+								</h2>
+								<a href="#"><img src="assets/play_btn.png"></a>
+							</div>
+						</li>
+						<li>
+							<img src="assets/123.jpg" alt="">
+							<div class="text">
+								<h1>ВСТРЕЧАЙТЕ BÉLO</h1>
+								<h2>С Airbnb весь мир — твой дом: история нового символа</h2>
+								<a href="#"><img src="assets/play_btn.png"></a>
+							</div>
+						</li>
+
+					</ul>
 				</div>
 			</section>
 			<section class="community">
@@ -295,5 +329,16 @@
 				<p>&copy;Airbnb, Inc</p>
 			</div>
 		</footer>
+		<script>
+			$(function() {
+				$(".rslides").responsiveSlides({
+					timeout: 4000,
+					nav: true,
+					prevText: '',
+					nextText: '',
+					pager: false
+				});
+			});
+		</script>
 	</body>
 </html>
