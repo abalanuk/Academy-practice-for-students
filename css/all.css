@@ -18,7 +18,7 @@ flex-grow: 1;
 header {
 		background: yellow;
 	}
-	div {
+div {
 		display: flex;
 		justify-content: center;
 	}
@@ -32,6 +32,7 @@ main {
 	
 }
 
+    
 body {
 	overflow: scroll;
 	}
@@ -41,6 +42,17 @@ footer  {
 		color: green;
 					
 		}
-a {
-	color: red;
+table {
+	color: green;
+	}
+a:link	{
+    color: red; 
+    padding: 2px; 
+   }
+a:hover{
+	background: blue;
+}
+img:hover {
+	padding: 5px;
+	opacity: 0.5;
 }
