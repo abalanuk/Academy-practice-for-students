@@ -6,12 +6,13 @@
 		<link rel="stylesheet" type="text/css" href="css/slide.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="js/responsiveslides.min.js"></script>
+		<script src="js/open_video.js"></script>
 		<title>AirBnB</title>
 	</head>
 
 	<body>
 		<div id="play_video">
-			<video autoplay="autoplay" loop="loop" muted="muted">
+			<video id="video_on_click"  loop="loop" muted="muted">
 				<source src="https://a0.muscache.com/airbnb/static/Belong_p1_v2.mp4">
 			</video>
 			<button class="close" onclick="closeVideo()"></button>
@@ -347,15 +348,6 @@
 				});
 			});
 		</script>
-		<script type="text/javascript">
-			function playVideo(){
-				document.getElementById("play_video").style.display = "block";
-				document.getElementById("header_top").style.position = "relative";
-			}
-			function closeVideo(){
-				document.getElementById("play_video").style.display = "none";
-				document.getElementById("header_top").style.position = "fixed"
-			}
-		</script>
+
 	</body>
 </html>
