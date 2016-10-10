@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+ }
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  }
+header div:first-child {
+width: 100%;
+border: 1px solid black;
+/*position: fixed;*/
+justify-content: space-around;
+flex-grow: 1;
+}
+header {
+		background: yellow;
+	}
+div {
+		display: flex;
+		justify-content: center;
+	}
+h1 {
+	color: green;
+}
+main {
+	/*display:inline-block;*/
+	flex-grow: 1;
+	vertical-align: middle;
+	
+}
+
+    
+body {
+	overflow: scroll;
+	}
+
+footer  {
+		background: black;
+		color: green;
+					
+		}
+table {
+	color: green;
+	}
+a:link	{
+    color: red; 
+    padding: 2px; 
+   }
+a:hover{
+	background: blue;
+}
+img:hover {
+	padding: 5px;
+	opacity: 0.5;
+}
