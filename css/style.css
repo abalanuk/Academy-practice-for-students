@@ -1,4 +1,5 @@
 .header {
+    overflow:hidden;
     width: 11%;
     height: 60px;
     line-height: 60px;
@@ -7,6 +8,12 @@
     border-right: 1px solid #c3cece;
     font-size: 14px;
     font-family: sans-serif;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.header:not(:first-child):hover{
+    background: #ebebea;
+    border-bottom: 1px solid #d0d0d0;
 }
 .header a{
     color: black;
@@ -49,6 +56,7 @@ img {
     padding: 5px;
 }
 
+
 .video {
     position: relative;
     top: 60px;
@@ -67,7 +75,7 @@ main {
     position: relative;
     height: 200px;
     width: 100%;
-    top: 170px;
+    top: 110px;
 }
 .slogan {
     display: block;
@@ -81,7 +89,6 @@ main {
 .big_slogan {
     position: relative;
     font-size: 60px;
-    /* right: 400px; */
 }
 
 .small_slogan {
@@ -91,7 +98,6 @@ main {
 
 .btn_it_works {
     position: relative;
-    /* border: 2px solid rgba(57, 54, 54, 0.67); */
     border-radius: 5px;
     padding: 15px 60px;
     top: 200px;
@@ -99,7 +105,12 @@ main {
     font-family: sans-serif;
     font-weight: bold;
     background: rgba(57, 54, 54, 0.67);
-    /* text-align: justify; */
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.btn_it_works:hover {
+    border-radius: 6px;
+    background: rgba(82, 82, 82, 0.92);
 }
 .btn_it_works a{
     color: white
@@ -142,6 +153,14 @@ main {
     border-radius: 0px 5px 5px 0px;
     color: white;
     border-right-color: #ff4848;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.way_container:last-child:hover{
+    background: #ff2626;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    border-right-color: #ff2626;
 }
 .way_container:not(first-child){
     padding: 1px 0px;
@@ -194,8 +213,15 @@ main {
     text-align: center;
     text-shadow: 1px 1px 2px black;
     background-clip: padding-box;
+    cursor: pointer;
+    transition: 0.5s linear;
+    opacity: 0.9;
 }
-
+.adv_picture:hover {
+    opacity: 1;
+    z-index: 10;
+    text-shadow: 1px 1px 4px black;
+}
 
 .adv_picture:nth-child(1) {
     margin-left: 80px;
@@ -212,6 +238,13 @@ main {
     color: dimgray;
     width:  100%;
     margin: 0 auto;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.adv_btn:hover{
+    background: #adadad;
+    color: white;
+    border: 1px solid rgba(44, 44, 44, 0.1);
 }
 
 
@@ -235,6 +268,14 @@ main {
     font-size: 24px;
     text-align: center;
     text-shadow: 1px 1px 2px black;
+    -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+.community_block:hover{
+    margin-top: -50px;
 }
 
 footer {
@@ -338,7 +379,7 @@ ul li {
     position: fixed;
     width: 100%;
     background: white;
-    z-index: 10;
+    z-index: 100;
 }
 
 a {
