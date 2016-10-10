@@ -1,7 +1,9 @@
-<DOCTYPE html>
+<!DOCTYPE html>
     <html>
         <head>
+        <title>Снимайте жилье вместе с airbnb</title>
         <meta charset="utf-8">
+        <meta name="description" content="Бронируйте дома у местных хозяев в 191+ странах и смотрите на город глазами местного жителя.">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/reset.css">
         </head>
@@ -9,25 +11,31 @@
         
         <body>
             <header>
-                <div class="header float_left"><img src="images/logo.PNG"></div>
-                <div class="header float_left"><img src="images/search.PNG">Куда вы едете?</div>
-                <div class="header btn float_left"><span class="btn_header">Стать хозяином</span></div>
-                <div class="header float_left">Помощь</div>
-                <div class="header float_left">Реестрация</div>
-                <div class="header float_left">Войти</div>
+               <div class="header_container">
+                <div class="header"><a href="index.html"><img src="images/logo.PNG"></a></div>
+                <input type="text" class="header_input noborder" placeholder="Куда вы едете?">
+                <div class="header btn"><span class="btn_header">Стать хозяином</span></div>
+                <div class="header"><a href="#">Помощь</a></div>
+                <div class="header"><a href="#">Реестрация</a></div>
+                <div class="header"><a href="#">Войти</a></div>
+                </div>
             </header>
             <main>
                 <section class="video_section">
                 <div class="video">
+                <video autoplay="" loop="" poster="home-vid-img.jpg" id="bgvid">
+                    <source src="homepage.webm" type="video/webm">
+                    <source src="video/Stockholm%20-%20Slussen%20-%20Timelapse_960.mov" type="video/mp4">
+                </video>
                     <div class="container_slogan">
                         <h1 class="slogan big_slogan">ЦЕЛАЯ ЖИЗНЬ</h1>
                         <h2 class="slogan small_slogan">Бронируйте дома у местных хозяев в 191+ странах и смотрите на город глазами местного жителя.</h2>
                         </div>
-                    <span class="btn_it_works">Как это работает</span>
+                    <span class="btn_it_works"><a href="#">Как это работает</a></span>
                     <section class="choose_way">
-                <div class="way_container float_left">Куда вы едете?</div>
-                <div class="way_container float_left">Прибытие &#8594;</div>
-                <div class="way_container float_left">Выезд</div>
+                <input type="text" class="way_container float_left noborder" placeholder="Куда вы едете?">
+                <input type="date" class="way_container float_left noborder" placeholder="Прибытие &#8594;">
+                 <input type="date" class="way_container float_left noborder" placeholder="Выезд">
                 <div class="way_container float_left">
                     <select class="select_guest">
                         <option>1 гость</option>
@@ -35,7 +43,7 @@
                         <option>... гостя</option>
                     </select>
                         </div>
-                        <div class="way_container float_left"><span class="btn_red">Начать поиск</span></div>
+                        <input type="submit" class="way_container float_left btn_red noborder" value="Начать поиск">
                     </section>
                     </div>
                 </section>
@@ -143,5 +151,5 @@
             </footer>
         </body>
     
-    
+    <script src="js/script.js"></script>
     </html>
