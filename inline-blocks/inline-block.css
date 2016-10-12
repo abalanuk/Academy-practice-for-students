@@ -1,0 +1,7 @@
+section {
+    display: inline-block;
+    margin: 0 1.6%;
+    width: 30%;
+    height: 50px;
+    background-color: green;
+}
